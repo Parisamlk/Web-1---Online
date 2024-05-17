@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 Item of CARS</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/CSR_Racing_icon-icons.com_75325.png"
+    />
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        direction: ltr;
+      }
+      .fav-category-parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 1px solid black;
+        max-width: 1200px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .fav-category {
+        background-color: dimgray;
+        display: flex;
+        width: calc(50% - 20px);
+        padding: 24px 16px;
+      }
+      @media screen and (max-width: 600px) {
+        .fav-category {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+      .fav-category__logo-container {
+        width: 75px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      }
+      .fav-category__logo-img {
+        display: block;
+        height: 60px;
+        width: 60px;
+      }
+      .fav-category__description {
+        padding-left: 15px;
+      }
+      .fav-category__title {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .fav-category__description h2 {
+        margin: 4px;
+      }
+      .fav-category__details {
+        color: black;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- item 1 -->
+    <div class="fav-category-parent">
+      <div class="fav-category" style="background-color: steelblue">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/bmw.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a
+              href="https://www.bmw.com/en/index.html"
+              class="fav-category__title"
+              >BMW</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>Germany</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 2 -->
+      <div class="fav-category" style="background-color: lightgray">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/benz.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a
+              href="https://www.mercedes-benz.com/en/"
+              class="fav-category__title"
+              >Mercedes BENZ</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>Germany</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 3 -->
+      <div class="fav-category" style="background-color: goldenrod">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/lamborghini.webp"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a
+              href="https://www.lamborghini.com/en-en"
+              class="fav-category__title"
+              >Lamborghini</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>Italy</span>
+          </div>
+        </div>
+      </div>
+      <!-- item4 -->
+      <div class="fav-category" style="background-color: darkturquoise">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/RollsRoyce.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a
+              href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
+              class="fav-category__title"
+              >Rolls Royce</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>United Kingdom</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 5 -->
+      <div class="fav-category" style="background-color: darkred">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/dodge.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a href="https://www.dodge.com/" class="fav-category__title"
+              >Dodge</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>United States</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 6 -->
+      <div class="fav-category" style="background-color: slategrey">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/Koenigsegg.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a
+              href="https://www.koenigsegg.com/home"
+              class="fav-category__title"
+              >Koenigsegg</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>Sweden</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 7 -->
+      <div class="fav-category" style="background-color: darkgreen">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/lotus.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a
+              href="https://www.lotuscars.com/en-GB"
+              class="fav-category__title"
+              >lotus</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span> United Kingdom</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 8 -->
+      <div class="fav-category" style="background-color: navy">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/maserati.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a
+              href="https://www.maserati.com/global/en"
+              class="fav-category__title"
+              >Maserati</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>Italy</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 9 -->
+      <div class="fav-category" style="background-color: darkslateblue">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/Pagani.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a href="https://www.pagani.com/" class="fav-category__title"
+              >Pagani</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>Italy</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 10 -->
+      <div class="fav-category" style="background-color: brown">
+        <div class="fav-category__logo-container">
+          <img
+            style="width: auto"
+            src="assets/img/logo/porsche.png"
+            alt=""
+            class="fav-category__logo-img"
+          />
+        </div>
+        <div class="fav-category__description">
+          <h2>
+            <a href="https://www.porsche.com/" class="fav-category__title"
+              >Porsche</a
+            >
+          </h2>
+          <div class="fav-category__details">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <span>Germany</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

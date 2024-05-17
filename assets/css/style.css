@@ -1,0 +1,23 @@
+h2 
+{color: firebrick;}
+
+body
+{color: darkgray;}
+
+h1
+{color: red;}
+
+p
+{color: rgb(255, 255, 255);}
+
+body
+{background-color: black;}
+
+button 
+{
+    background-color: firebrick;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+}
