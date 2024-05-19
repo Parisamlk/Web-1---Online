@@ -1906,6 +1906,7 @@ body.SideBarOpend {
 }
 .sidebar .widget:last-of-type {
   margin-bottom: 0;
+  text-align: right;
 }
 .widget_title {
   font-weight: 700;
@@ -1916,15 +1917,16 @@ body.SideBarOpend {
   margin: 0 0 30px;
   position: relative;
   padding: 0 0 13px;
+  text-align: right;
 }
 .widget_title:after {
   content: "";
   width: 40px;
   height: 4px;
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
-  background: url(../images/bg/2.png) no-repeat left center;
+  background: url(../images/bg/2.png) no-repeat right center;
 }
 .widget-search form {
   margin: 0;
@@ -1952,6 +1954,7 @@ body.SideBarOpend {
 .widget ul {
   margin: 0;
   padding: 0;
+  text-align: right;
 }
 .widget ul li {
   list-style: none;
@@ -1995,6 +1998,7 @@ body.SideBarOpend {
   text-align: left;
   margin-bottom: 30px;
   padding-top: 8px;
+  text-align: right;
 }
 .widget .singleRecent:nth-last-of-type {
   margin-bottom: 0;
@@ -2032,6 +2036,7 @@ body.SideBarOpend {
   position: relative;
   display: inline-block;
   margin-bottom: -10px;
+  padding-left: 10px;
 }
 .widget .tabclouds a {
   font-size: 12px;
