@@ -1318,7 +1318,7 @@ html {
 .biMeta {
   position: absolute;
   bottom: 25px;
-  left: 25px;
+  right: 30px;
   width: auto;
   z-index: 2;
   background: #7635f5;
@@ -1329,7 +1329,6 @@ html {
   letter-spacing: 0.45px;
   padding: 0 15px;
   font-weight: 500;
-
   transition: all ease 300ms;
   -moz-transition: all ease 300ms;
   -webkit-transition: all ease 300ms;
@@ -1399,7 +1398,7 @@ html {
 }
 .blogCount {
   position: absolute;
-  right: 24px;
+  left: 20px;
   bottom: 20px;
   font-size: 70px;
   font-weight: 900;
