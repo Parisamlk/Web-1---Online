@@ -1,0 +1,148 @@
+/* HOME start */
+
+/* unvisited link */
+a.Home:link {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.Home:visited {
+  color: #d5a02c;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.Home:hover {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.Home:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* HOME end */
+
+/* About start */
+
+a.About:link {
+  color: goldenrod;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.About:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.About:hover {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.About:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* About end */
+
+/* Portfolio start */
+
+a.Portfolio:link {
+  color: #d5a02c;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.Portfolio:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.Portfolio:hover {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.Portfolio:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* Portfolio end */
+
+/* Stories start */
+a.Stories:link {
+  color: #d5a02c;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.Stories:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.Stories:hover {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.Stories:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* Stories end */
+
+/* Contact start */
+a.Contact:link {
+  color: #d5a02c;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.Contact:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.Contact:hover {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.Contact:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* Contact end */
