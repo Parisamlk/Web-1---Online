@@ -1,0 +1,289 @@
+/* HOME start */
+
+/* unvisited link */
+a.Home:link {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.Home:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.Home:hover {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.Home:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* HOME end */
+
+/* About start */
+/* unvisited link */
+a.About:link {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.About:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.About:hover {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.About:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* About end */
+
+/* Portfolio start */
+/* unvisited link */
+a.Portfolio:link {
+  color: #d5a02c;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.Portfolio:visited {
+  color: goldenrod;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.Portfolio:hover {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.Portfolio:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* Portfolio end */
+
+/* Stories start */
+/* unvisited link */
+a.Stories:link {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.Stories:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.Stories:hover {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.Stories:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* Stories end */
+
+/* Contact start */
+/* unvisited link */
+a.Contact:link {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.Contact:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.Contact:hover {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.Contact:active {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* Contact end */
+
+/* Portfolio menu start */
+/* unvisited link */
+a.PHOTOGRAPHY:link {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.PHOTOGRAPHY:visited {
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.PHOTOGRAPHY:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.PHOTOGRAPHY:active {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/*  */
+/* unvisited link */
+a.ILLUSTRATION:link {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.ILLUSTRATION:visited {
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.ILLUSTRATION:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.ILLUSTRATION:active {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/*  */
+/* unvisited link */
+a.WEBDESIGN:link {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.WEBDESIGN:visited {
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.WEBDESIGN:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.WEBDESIGN:active {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/*  */
+/* unvisited link */
+a.BRANDING:link {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.BRANDING:visited {
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.BRANDING:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.BRANDING:active {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/*  */
+/* unvisited link */
+a.ALLWORKS:link {
+  color: #d5a02c;
+  transition: 0.5s;
+}
+
+/* visited link */
+a.ALLWORKS:visited {
+  color: goldenrod;
+  transition: 0.5s;
+}
+
+/* mouse over link */
+a.ALLWORKS:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+/* selected link */
+a.ALLWORKS:active {
+  color: wheat;
+  transition: 0.5s;
+}
+/* Portfolio menu end */
