@@ -9,7 +9,7 @@ a.Home:link {
 
 /* visited link */
 a.Home:visited {
-  color: #d5a02c;
+  color: white;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -39,7 +39,7 @@ a.About:link {
 
 /* visited link */
 a.About:visited {
-  color: #d5a02c;
+  color: white;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -69,7 +69,7 @@ a.Portfolio:link {
 
 /* visited link */
 a.Portfolio:visited {
-  color: #d5a02c;
+  color: white;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -99,7 +99,7 @@ a.Stories:link {
 
 /* visited link */
 a.Stories:visited {
-  color: white;
+  color: goldenrod;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -129,7 +129,7 @@ a.Contact:link {
 
 /* visited link */
 a.Contact:visited {
-  color: #d5a02c;
+  color: white;
   text-decoration: none;
   transition: 0.5s;
 }
