@@ -146,3 +146,29 @@ a.Contact:active {
   transition: 0.5s;
 }
 /* Contact end */
+
+a.one:link {
+  color: goldenrod;
+  text-decoration: none;
+}
+a.one:visited {
+  color: goldenrod;
+  text-decoration: none;
+}
+a.one:hover {
+  font-size: 150%;
+  text-decoration: none;
+}
+
+a.five:link {
+  color: white;
+  text-decoration: none;
+}
+a.five:visited {
+  color: white;
+  text-decoration: none;
+}
+a.five:hover {
+  font-size: 150%;
+  text-decoration: none;
+}

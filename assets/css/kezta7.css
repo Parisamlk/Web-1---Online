@@ -148,3 +148,42 @@ a.Contact:active {
   transition: 0.5s;
 }
 /* Contact end */
+
+a.one:link {
+  color: goldenrod;
+  text-decoration: none;
+}
+a.one:visited {
+  color: goldenrod;
+  text-decoration: none;
+}
+a.one:hover {
+  font-size: 150%;
+  text-decoration: none;
+}
+
+a.two:link {
+  color: white;
+  text-decoration: none;
+}
+a.two:visited {
+  color: white;
+  text-decoration: none;
+}
+a.two:hover {
+  font-size: 150%;
+  text-decoration: none;
+}
+
+a.three:link {
+  color: white;
+  text-decoration: none;
+}
+a.three:visited {
+  color: white;
+  text-decoration: none;
+}
+a.three:hover {
+  font-size: 150%;
+  text-decoration: none;
+}
