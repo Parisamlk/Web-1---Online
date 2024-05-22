@@ -176,20 +176,10 @@ a.Submit:active {
 /* Submit end */
 
 input[type="text"] {
-  width: 100%;
+  width: 136%;
   padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+  margin: 12px 0;
   border: none;
-  border-bottom: 2px solid goldenrod;
-}
-a.YourName {
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  color: #6c6c6c;
-  font-size: 18px;
-  font-family: Roboto;
-  font-weight: 400;
-  word-wrap: break-word;
+  background-color: #111111;
+  color: white;
 }
