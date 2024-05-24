@@ -35,7 +35,7 @@ html {
 .profileSidebar {
   position: relative;
   background: #292633;
-  min-height: 100px;
+  height: 550px;
   box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, 1);
 }
 @media (min-width: 1600px) {
@@ -151,6 +151,8 @@ html {
   padding-left: 40px;
   margin: 0 0 25px;
   text-align: right;
+  top: 100px;
+  margin-top: 50px;
 }
 .pssBox:last-of-type {
   margin-bottom: 0;
@@ -163,7 +165,7 @@ html {
   margin: 0 0 0 0;
   position: absolute;
   left: 0;
-  top: 1px;
+  top: 14px;
 }
 .pssBox h5 {
   font-size: 16px;
@@ -173,6 +175,7 @@ html {
   display: block;
   line-height: 0.8;
   margin: 0 0 9px;
+  bottom: 10px;
 }
 .pssbBars {
   display: block;
@@ -223,6 +226,8 @@ html {
   display: flex;
   justify-content: flex-start;
   padding: 10px 0 50px 35px;
+  top: 130px;
+  right: 15px;
 }
 .psFooter a {
   margin-right: 2px;
