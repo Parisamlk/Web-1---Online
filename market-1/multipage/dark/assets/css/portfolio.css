@@ -27,6 +27,9 @@
 html {
   direction: rtl;
 }
+* {
+  font-family: "Vazirmatn", sans-serif;
+}
 .col-lg-4.profileColumn {
   -ms-flex: 0 0 30%;
   flex: 0 0 30%;
@@ -1121,7 +1124,7 @@ html {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: left;
   top: -60px;
 }
 .filterUL li {
@@ -1133,12 +1136,12 @@ html {
   display: inline-block;
   letter-spacing: 1px;
   cursor: pointer;
-  margin-right: 25px;
+  margin: 20px;
   list-style: none;
-
   transition: all ease 300ms;
   -moz-transition: all ease 300ms;
   -webkit-transition: all ease 300ms;
+  text-align: center;
 }
 .filterUL li.active,
 .filterUL li:hover {

@@ -27,6 +27,9 @@
 html {
   direction: rtl;
 }
+* {
+  font-family: "Vazirmatn", sans-serif;
+}
 .col-lg-4.profileColumn {
   -ms-flex: 0 0 30%;
   flex: 0 0 30%;
