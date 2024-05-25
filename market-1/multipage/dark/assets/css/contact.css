@@ -35,7 +35,7 @@ html {
 .profileSidebar {
   position: relative;
   background: #292633;
-  height: 800px;
+  min-height: 800px;
   box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, 1);
 }
 @media (min-width: 1600px) {
@@ -143,7 +143,7 @@ html {
 }
 .psSkills {
   position: relative;
-  padding: 40px 35px;
+  padding: 30px 35px;
   text-align: right;
 }
 .pssBox {
@@ -152,6 +152,7 @@ html {
   margin: 0 0 25px;
   text-align: right;
   top: 10px;
+  margin-top: 20px;
 }
 .pssBox:last-of-type {
   margin-bottom: 0;
@@ -224,8 +225,9 @@ html {
   position: relative;
   display: flex;
   justify-content: flex-start;
-  padding: 30px;
-  padding-top: 40px;
+  padding: 10px;
+  margin: 20px;
+  margin-right: 40px;
 }
 .psFooter a {
   margin-right: 2px;
@@ -387,11 +389,10 @@ html {
   padding-left: 69px;
   padding-top: 5px;
   min-height: 50px;
-  margin-bottom: 30px;
 }
 .icon_box_01 i {
   position: absolute;
-  left: 0;
+  left: 170px;
   top: 0;
   width: 50px;
   height: 50px;
@@ -414,16 +415,13 @@ html {
 }
 .icon_box_01 h3 {
   font-size: 16px;
-  line-height: 1;
   font-weight: 600;
   color: #fff;
-  text-transform: capitalize;
-  margin: 0 0 -2px;
+  padding-left: 15px;
 }
 .icon_box_01 p {
   font-size: 17px;
-  margin: 0;
-  line-height: 30px;
+  padding-right: 65px;
 }
 .icon_box_01 p a {
   color: inherit;
@@ -448,7 +446,6 @@ html {
   padding: 30px 25px 22px;
   border-radius: 2px 2px 2px 2px;
   border-bottom: 5px solid transparent;
-
   transition: all ease 300ms;
   -moz-transition: all ease 300ms;
   -webkit-transition: all ease 300ms;
@@ -469,7 +466,6 @@ html {
   color: #7635f5;
   margin: 0 0 23px;
   position: relative;
-
   transition: all ease 300ms;
   -moz-transition: all ease 300ms;
   -webkit-transition: all ease 300ms;
@@ -811,9 +807,8 @@ html {
   right: auto;
 }
 .pricingTable .btt_btn {
-  padding-left: 5px;
-  padding-right: 5px;
-  min-width: 164px;
+  padding-right: 65px;
+  min-width: 100px;
 }
 
 .languageDiv {
