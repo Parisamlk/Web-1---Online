@@ -25,7 +25,7 @@
 / 1. Profile Sidebar
 /---------------------------------------------------------*/
 html {
-  direction: rtl;
+  direction: ltr;
 }
 * {
   font-family: "Vazirmatn", sans-serif;
